@@ -1,0 +1,48 @@
+* {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: normal;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 1.1;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    gap: 50px;
+}
+
+body {
+    background-color: #fceee6;
+    color: #6f3211
+}
+
+.galeri-foto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.galeri-foto img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+p { 
+    text-align: center;
+    font-size: 20px;
+     margin: 40px auto;
+}
